@@ -1,0 +1,101 @@
+<!-- Головний контейнер слайдера - swiper-container-->
+<div class="slider-images swiper">
+   <!-- Обовякова оболочка - swiper-wrapper-->
+   <!-- Хеш навігація, додаємо атибут data-hach=""-->
+   <div class="slider-images__wrapper swiper-wrapper">
+     <!-- Слайди - swiper-slide-->
+     <div class="slider-images__item swiper-slide">
+       <!-- Котент слайда (при lazy-loading до картинки додаємо class="swiper-lazy" та змінюємо src="./img/2.jpg" на data-src="./img/1.jpg", та після картинки додаємо <div class="swiper-lazy-preloader"></div>)-->
+       <div class="slider-images__image">
+         <img src="./img/1.jpg" alt="картинка" />
+       </div>
+     </div>
+     <div class="slider-images__item swiper-slide">
+       <!-- Котент слайда -->
+       <div class="slider-images__image">
+         <img src="./img/2.jpg" alt="картинка" />
+       </div>
+     </div>
+   </div>
+
+   <!-- Додаємо якщо потрібні стрілки керування -->
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+
+   <!-- Додаємо якщо потрібна пагінація -->
+   <div class="swiper-pagination"></div>
+
+   <!-- Додаємо якщо потрібна смуга прокрутки -->
+   <div class="swiper-scrollbar"></div>
+ </div>
+
+
+
+
+ <div class="parallax-slider-images swiper">
+   <div class="parallax-slider-images__bg" data-swiper-parallax="-20%"></div>
+   <div class="parallax-slider-images__wrapper swiper-wrapper">
+     <div class="parallax-slider-images__item swiper-slide">
+       <h2
+         class="parallax-slider-images__title"
+         data-swiper-parallax-opacity="0"
+         data-swiper-parallax-scale="0.2"
+       >
+         Слайд №1
+       </h2>
+       <div
+         class="parallax-slider-images__text"
+         data-swiper-parallax-opacity="0"
+         data-swiper-parallax="-300"
+         data-swiper-parallax-duration="500"
+       >
+         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis
+         cumque assumenda consequatur maiores quam ipsam labore non nam
+         laudantium facere animi explicabo aut dolorem exercitationem in odio,
+         voluptate dolorum. Harum.
+       </div>
+     </div>
+     <div class="parallax-slider-images__item swiper-slide">
+       <h2
+         class="parallax-slider-images__title"
+         data-swiper-parallax-opacity="0"
+         data-swiper-parallax-scale="0.2"
+       >
+         Слайд №2
+       </h2>
+       <div
+         class="parallax-slider-images__text"
+         data-swiper-parallax-opacity="0"
+         data-swiper-parallax="-300"
+         data-swiper-parallax-duration="500"
+       >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+         libero ab porro quae repellendus dicta repudiandae in repellat, ipsam
+         nesciunt vitae quaerat quos mollitia! Pariatur magnam itaque fuga
+         consectetur et!
+       </div>
+     </div>
+     <div class="parallax-slider-images__item swiper-slide">
+       <h2
+         class="parallax-slider-images__title"
+         data-swiper-parallax-opacity="0"
+         data-swiper-parallax-scale="0.2"
+       >
+         Слайд №3
+       </h2>
+       <div
+         class="parallax-slider-images__text"
+         data-swiper-parallax-opacity="0"
+         data-swiper-parallax="-300"
+         data-swiper-parallax-duration="500"
+       >
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nam
+         vitae, rem culpa autem nesciunt praesentium ducimus animi quae quas
+         architecto? Harum quia commodi distinctio asperiores dolorem ut, earum
+         ullam.
+       </div>
+     </div>
+   </div>
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+ </div>
