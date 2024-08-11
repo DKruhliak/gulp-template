@@ -37,6 +37,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.16.2"
+    "@googlemaps/js-api-loader": "^1.16.2",
+    "gulp-cli": "^3.0.0"
   }
 }

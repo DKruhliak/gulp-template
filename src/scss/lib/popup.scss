@@ -1,0 +1,45 @@
+.popup {
+  position: fixed;
+  background: #0000007f;
+  z-index: -1;
+  &._open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+  }
+
+  &__wrapper {
+    background-color: #fff;
+    padding: 35px;
+    border-radius: 15px;
+    max-width: 600px;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__close-btn {
+    padding: 5px;
+    align-self: end;
+    cursor: pointer;
+    color: black;
+    text-align: right;
+  }
+  &__title {
+    margin-bottom: 17px;
+    font-weight: 600;
+  }
+  &__content {
+    line-height: 120%;
+  }
+}
+#popup {
+}

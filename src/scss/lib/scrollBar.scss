@@ -1,0 +1,39 @@
+body::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 76, 132, 0.49);
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 76, 132, 0.6);
+}
+
+/* Сумісність з Internet Explorer та Edge */
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* Приховування скролбара у Internet Explorer */
+}
+
+body::-ms-scrollbar {
+  width: 8px;
+}
+
+body::-ms-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-ms-scrollbar-thumb {
+  background: #e80606;
+}
+
+body::-ms-scrollbar-thumb:hover {
+  background: #555;
+}
